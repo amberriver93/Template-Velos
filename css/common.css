@@ -1,0 +1,83 @@
+/*头部*/
+.public-header{
+	height: 62px;
+	background-color: #9d9fa5;
+}
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width: 1300px;
+}
+.public-header .public-header-logo{
+	float: left;
+	width: 130px;
+	height: 38px;
+	background: url(../pic/public-header-logo.png);
+	margin-top: 23px;
+}
+.public-header .header-nav{
+	float: right;
+	font-size: 14px;
+}
+.public-header .header-nav .item
+{
+	float: left;
+	margin-top: 36px;
+	margin-left: 62px;
+}
+.public-header .header-nav a
+{
+	color: #ffffff;
+}
+.public-header .header-nav a:hover
+{
+	text-decoration: underline;
+	color: #fb0d0d;
+}
+/*footer*/
+.public-footer{
+	height: 88px;
+}
+.footer-container{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 1182px;
+}
+.copyright{
+	float: left;
+	position: relative;
+	font-size: 17px;
+	color: #a0a0a0;
+}
+.footer-right{
+	float: right;
+	position: relative;
+	width: 156px;
+	height: 31px;
+}
+.linkdin{
+	float: right;
+	position: relative;
+	margin-left: 10.6px;
+	width: 31px;
+	height: 31px;
+	background: url(../pic/linkdin.png);
+}
+.composite-Path,.twitter{
+	float: right;
+	position: relative;
+	margin-left: 10.6px;
+	width: 31px;
+	height: 31px;
+	background: url(../pic/composite-Path.png);
+}
+.twitter{
+	background: url(../pic/twitter.png);
+}
+.facebook{
+	float: left;
+	width: 31px;
+	height: 31px;
+	background: url(../pic/facebook.png);
+}
